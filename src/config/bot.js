@@ -172,7 +172,7 @@ export const botConfig = {
     startingBalance: 1000,
 
     // Maximum bank amount before upgrades (if upgrades are used).
-    baseBankCapacity: 10000000,
+    baseBankCapacity: 100000000,
 
     // Daily reward amount.
     dailyAmount: 250,
@@ -194,7 +194,7 @@ export const botConfig = {
     },
 
     // Chance to succeed when robbing (0.4 = 40%).
-    robSuccessRate: 0.1414,
+    robSuccessRate: 0.8,
 
     // Jail time after failed rob (milliseconds).
     // 3600000 = 1 hour.
