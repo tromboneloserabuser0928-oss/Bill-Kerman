@@ -62,7 +62,7 @@ export const botConfig = {
     // Default questions shown when someone fills out an application.
     defaultQuestions: [
       { question: "What is your name?", required: true },
-      { question: "How old are you?", required: true },
+      { question: "How old will you be after you turn 21 years of ages?", required: true },
       { question: "Why do you want to join?", required: true },
     ],
 
@@ -141,7 +141,7 @@ export const botConfig = {
     },
     footer: {
       // Default footer text used in bot embeds.
-      text: "- BK",
+      text: "Billard Clinton Kerman",
       // Footer icon URL (null = no icon).
       icon: null,
     },
@@ -161,11 +161,11 @@ export const botConfig = {
   economy: {
     currency: {
       // Currency display name.
-      name: "carbs",
+      name: "Bill Bucks",
       // Plural display name.
-      namePlural: "carbs",
+      namePlural: "Bill Bucks",
       // Currency symbol shown in balances.
-      symbol: "Ç",
+      symbol: "ß",
     },
 
     // Starting balance for new users.
