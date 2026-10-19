@@ -24,7 +24,7 @@ export const botConfig = {
     activities: [
       {
         name: "Custom Status", // required by Discord API, not shown in the client
-        state: "stalking",     // this is what people actually see
+        state: "Ominously Staring into the Abyss",     // this is what people actually see
         type: 4,               // Custom
       },
     ],
@@ -141,7 +141,7 @@ export const botConfig = {
     },
     footer: {
       // Default footer text used in bot embeds.
-      text: "Titan Bot",
+      text: "- BK",
       // Footer icon URL (null = no icon).
       icon: null,
     },
@@ -161,29 +161,29 @@ export const botConfig = {
   economy: {
     currency: {
       // Currency display name.
-      name: "coins",
+      name: "carbs",
       // Plural display name.
-      namePlural: "coins",
+      namePlural: "carbs",
       // Currency symbol shown in balances.
-      symbol: "$",
+      symbol: "Ç",
     },
 
     // Starting balance for new users.
-    startingBalance: 0,
+    startingBalance: 10000,
 
     // Maximum bank amount before upgrades (if upgrades are used).
-    baseBankCapacity: 100000,
+    baseBankCapacity: 1000000000000,
 
     // Daily reward amount.
-    dailyAmount: 100,
+    dailyAmount: 1000,
 
     // Work command random payout range.
-    workMin: 10,
-    workMax: 100,
+    workMin: 25,
+    workMax: 500,
 
     // Beg command random payout range.
-    begMin: 5,
-    begMax: 50,
+    begMin: 1,
+    begMax: 100,
 
     // Command cooldowns (milliseconds).
     cooldowns: {
@@ -194,11 +194,11 @@ export const botConfig = {
     },
 
     // Chance to succeed when robbing (0.4 = 40%).
-    robSuccessRate: 0.4,
+    robSuccessRate: 0.1414,
 
     // Jail time after failed rob (milliseconds).
     // 3600000 = 1 hour.
-    robFailJailTime: 3600000,
+    robFailJailTime: 900000,
   },
 
   // =========================
@@ -434,8 +434,8 @@ export const botConfig = {
   // GENERIC BOT MESSAGES
   // =========================
   messages: {
-    noPermission: "You do not have permission to use this command.",
-    cooldownActive: "Please wait {time} before using this command again.",
+    noPermission: "You donut have permission to use this command, so SKEDADDLE!.",
+    cooldownActive: "Wait {time} before using this command again or else...",
     errorOccurred: "An error occurred while executing this command.",
     missingPermissions:
       "I am missing required permissions to perform this action.",
